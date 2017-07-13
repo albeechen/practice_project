@@ -21,7 +21,7 @@ var num = 0;
         $scope.photo3Name = "source/0.jpg";
         $scope.startNum = 0;
         $scope.stopNum = 10;
-        $scope.totalPhoto = 20;
+        $scope.totalPhoto = 31;
         var myTimeOut;
         $scope.choosePhoto = function() {
             var number1 = Math.floor((Math.random() * 10)) % $scope.totalPhoto;
