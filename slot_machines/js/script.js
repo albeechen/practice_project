@@ -21,12 +21,12 @@ var num = 0;
         $scope.photo3Name = "source/0.jpg";
         $scope.startNum = 0;
         $scope.stopNum = 10;
-        $scope.totalPhoto = 31;
+        $scope.totalPhoto = 20;
         var myTimeOut;
         $scope.choosePhoto = function() {
-            var number1 = Math.floor((Math.random() * 10)) % $scope.totalPhoto;
-            var number2 = Math.floor((Math.random() * 10)) % $scope.totalPhoto;
-            var number3 = Math.floor((Math.random() * 10)) % $scope.totalPhoto;
+            var number1 = Math.floor((Math.random() * 100)) % $scope.totalPhoto;
+            var number2 = Math.floor((Math.random() * 100)) % $scope.totalPhoto;
+            var number3 = Math.floor((Math.random() * 100)) % $scope.totalPhoto;
             var path1 = "source/" + number1 + ".jpg";
             var path2 = "source/" + number2 + ".jpg";
             var path3 = "source/" + number3 + ".jpg";
