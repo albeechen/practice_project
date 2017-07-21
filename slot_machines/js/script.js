@@ -24,7 +24,7 @@ var num = 0;
         $scope.totalPhoto = 20;
         var myTimeOut;
         $scope.choosePhoto = function() {
-            var number1 = Math.floor((Math.random() * 100)) % $scope.totalPhoto;
+            var number1 = Math.floor((Math.random() * 10)) % $scope.totalPhoto;
             var number2 = Math.floor((Math.random() * 100)) % $scope.totalPhoto;
             var number3 = Math.floor((Math.random() * 100)) % $scope.totalPhoto;
             var path1 = "source/" + number1 + ".jpg";
@@ -33,7 +33,7 @@ var num = 0;
             $scope.photo1Name = path1;
             $scope.photo2Name = path2;
             $scope.photo3Name = path3;
-            console.log(path1);
+            console.log( $scope.photo1Name);
             //slideLine('ann_box','div',2000,25,20);
             myTimeOut = $timeout($scope.choosePhoto, 100);
             $scope.startNum += 1;
