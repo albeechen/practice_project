@@ -9,3 +9,8 @@ c.onmousemove=function(e) {
 	var ry = y-200;
 	ctx.drawImage(img, rx, ry, line_width, line_width, rx, ry, line_width, line_width);
 }
+
+var btn = document.getElementById("restartBtn");
+btn.onclick = function(){
+	location.reload();
+}
