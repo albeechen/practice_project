@@ -1,47 +1,41 @@
-h1{
-	margin-top: 50px;
-	text-align: center;
-	color: green;
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    color: green;
 }
 
-div{
-	float: left;
-	margin: 60px 80px;
+div {
+    float: left;
+    margin: 60px 80px;
 }
 
-#backgroung-img{
-	background-image: url('../source/background.jpg'); 
-	position: absolute;
-	z-index: -1;
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	left: 0px;
+#backgroung-img {
+    background-image: url('../source/background.jpg');
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0px;
     top: 0px;
     opacity: 0.3;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 
-#copy:hover{
-	cursor: url('../source/brush.jpg'), pointer;
+#copy:hover {
+    cursor: url('../source/brush.jpg'), pointer;
 }
 
-#restartBtn{
-	margin: 0px 600px;
+#restartBtn {
+    margin: 0px 600px;
     text-align: center;
 }
 
-.img-box{
-	width: 500px;
-	height: 330px;
-	border: 1px solid black;
+.img-box {
+    width: 500px;
+    height: 330px;
+    border: 1px solid black;
 }
-
-
-
-
-
-
