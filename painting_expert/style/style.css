@@ -9,10 +9,6 @@ div{
 	margin: 60px 80px;
 }
 
-#copy{
-	border: 1px solid black;
-}
-
 #backgroung-img{
 	background-image: url('../source/background.jpg'); 
 	position: absolute;
@@ -28,14 +24,24 @@ div{
     background-size:cover;
 }
 
+
 #copy:hover{
-	cursor: pointer;
+	cursor: url('../source/brush.jpg'), pointer;
 }
 
 #restartBtn{
 	margin: 0px 600px;
     text-align: center;
 }
+
+.img-box{
+	width: 500px;
+	height: 330px;
+	border: 1px solid black;
+}
+
+
+
 
 
 
