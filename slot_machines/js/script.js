@@ -1,17 +1,3 @@
-/*
-//網頁load完會執行一次
-//五個屬性各別是：外面div的id名稱、包在裡面的標籤類型
-//延遲毫秒數、速度、高度
-slideLine('ann_box','div',2000,25,20);
-*/
-/*var app = angular.module('myApp', []);
-app.controller('myCtrl', function($scope) {
-    $scope.photoname = "source/001.jpg";
-    $scope.ChoosePhoto = function() {
-      var number = (Math.random() * 10)%3;
-      console.log(number);
-    }
-});*/
 var num = 0;
 (function() {
     var myApp = angular.module('myApp', [])
