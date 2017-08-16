@@ -1,0 +1,178 @@
+/* css Zen Garden default style v1.02 */
+
+
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+
+/* This file based on 'Tranquille' by Dave Shea */
+
+
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+
+
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+
+@import url(https://fonts.googleapis.com/css?family=Tangerine);
+
+body {
+    background: url('../source/background.jpg') no-repeat;
+    width: 100%;
+    height: 1200px;
+    color: white;
+    font-family: "Tangerine", Georgia, Serif;
+    background-color: white;
+    background-size: cover;
+}
+
+[role="banner"] {
+    text-align: center;
+    font-size: 36px;
+    line-height: 0.7;
+    font-family: 'Tangerine', cursive;
+    opacity: 0.8;
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s;
+    /* Safari 4.0 - 8.0 */
+    color: black;
+}
+
+
+@-webkit-keyframes example {
+    0% {
+        opacity: 0;
+        color: #ffffff;
+    }
+    10% {
+        opacity: 0.1;
+        color: #e6e6e6;
+    }
+    20% {
+        opacity: 0.2;
+        color: #cccccc;
+    }
+    30% {
+        opacity: 0.3;
+        color: #b3b3b3;
+    }
+    40% {
+        opacity: 0.4;
+        color: #999999;
+    }
+    60% {
+        opacity: 0.6;
+        color: #666666;
+    }
+    70% {
+        opacity: 0.7;
+        color: #4d4d4d;
+    }
+    80% {
+        opacity: 0.8;
+        color: #333333;
+    }
+    90% {
+        opacity: 0.9;
+        color: #1a1a1a;
+    }
+    100% {
+        opacity: 1;
+        color: #000000;
+    }
+}
+
+
+div ul {
+    list-style: none;
+}
+
+
+
+.summary {
+    text-align: center;
+    line-height: 0.3;
+    font-family: 'Times New Roman', cursive;
+    color: gray;
+}
+
+.preamble:hover {
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 4s;
+}
+
+.preamble{
+    background: url('../source/pen.jpg') no-repeat;
+    width: 260px;
+    height: 400px;
+    color: white;
+    margin: 100px 0px 0px 50px;
+    float: left;
+    font-size: 28px;
+}
+
+@-webkit-keyframes run {
+    0%   {background-position:10% 0%;}
+    25%  {background-position:30% 0%;}
+    50%  {background-position:50% 0%;}
+    75%  {background-position:70% 0%;}
+    100% {background-position:90% 0%;}
+}
+
+.design-selection,
+.zen-resources,
+.design-archives {
+    background: url('../source/footprint.jpg') no-repeat;
+    color: white;
+    float: left;
+    font-size: 24px;
+    margin: 50px 10px;
+}
+
+.design-selection,
+.zen-resources {
+    width: 300px;
+    height: 250px;
+}
+
+.design-archives {
+    width: 200px;
+    height: 100px;
+    margin: 50px 10px 50px 100px;
+}
+
+.main {
+    width: 40%;
+    height: 800px;
+    color: #000000;
+    padding: -10px 20px;
+    margin: 30px 50px;
+    overflow: auto;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Tangerine', cursive;
+    line-height: 1.5;
+    float: left;
+}
+
+.main h3 {
+    text-shadow: 2px 2px 12px white;
+}
+
+.main::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media screen and (min-width: 992px) {}
+
+@media (max-width: 991px) and (min-width: 768px) {}
+
+@media (max-width: 767px) and (min-width: 432px) {}
+
+@media (max-width: 431px) {}
