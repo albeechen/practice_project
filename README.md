@@ -11,5 +11,5 @@ https://albeechen.github.io/practice_project/painting_expert/index.html
 https://albeechen.github.io/practice_project/css_zen_garden/index.html
 
 4.portfolio ver.1 ( portfolio _v1 )
-https://albeechen.github.io/practice_project/portfolio _v1/index.html
+https://albeechen.github.io/practice_project/portfolio _v1/public/index.html
 
