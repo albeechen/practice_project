@@ -13,3 +13,6 @@ https://albeechen.github.io/practice_project/css_zen_garden/index.html
 4.portfolio ver.1 ( portfolio_v1 )
 https://albeechen.github.io/practice_project/portfolio_v1/public/index.html
 
+5.Angular JS ( slot_machines_v2 )
+https://albeechen.github.io/practice_project/slot_machines_v2/index.html
+
