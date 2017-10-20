@@ -1,4 +1,4 @@
-# practice_project
+# practice_project(some not work in old version IE)
 
 
 1.Angular JS ( slot_machines )
