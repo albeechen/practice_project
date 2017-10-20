@@ -1,5 +1,6 @@
 # practice_project
 
+
 1.Angular JS ( slot_machines )
 https://albeechen.github.io/practice_project/slot_machines/index.html
 
@@ -11,3 +12,4 @@ https://albeechen.github.io/practice_project/css_zen_garden/index.html
 
 4.portfolio ver.1 ( portfolio _v1 )
 https://albeechen.github.io/practice_project/portfolio _v1/index.html
+
